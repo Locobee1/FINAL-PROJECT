@@ -1,0 +1,254 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.104.2">
+
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Bootstrap Icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+    rel="stylesheet" type="text/css" />
+  <!-- SimpleLightbox plugin CSS-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
+  <!-- STYLE RAZAS -->
+  <link rel="stylesheet" href="./css/razas.css">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+  <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+  <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+  <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+  <title>Carousel Template · Bootstrap v5.2</title>
+
+  <meta name="theme-color" content="#712cf9">
+
+  <!-- Custom styles for this template -->
+  <link href="carousel.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container px-4 px-lg-5">
+
+      <a class="navbar-brand" href="./index.html"> <img src="./imgp/logo.png" id="lp"> PERRON</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto my-2 my-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#portfolio">RAZAS</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"
+          aria-current="true"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <rect width="100%" height="100%" fill="#777"></rect>
+
+
+          <img src="./imgp/bernardo1.jpg" class="d-block w-100 h-100">
+          <!-- style="background-image: url('./imgp/Husky4.webp');" -->
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <div id="ltr">
+                <!-- style="backdrop-filter: blur(100px) saturate(90%);" -->
+                <h1 id="ache">
+                  San Bernardo.
+                </h1>
+                <p id="ache">
+                  averigua todo sobre los San Bernardo.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#">
+                    Saber mas
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+
+          <rect width="100%" height="100%" fill="#777"></rect>
+          <img src="./imgp/chihu1.jpg" class="d-block w-100 h-100">
+
+          <div class="container">
+            <div class="carousel-caption  ">
+              <div id="ltr">
+
+                <h1 id="ache">
+                  Another example headline.
+                </h1>
+                <p class="" id="ache">
+                  Some representative placeholder content for the second slide of the carousel.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#">
+                    Learn more
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <rect width="100%" height="100%" fill="#777"></rect>
+          <img src="./imgp/xolo1.jpg" class="d-block w-100 h-100">
+
+          <div class="container">
+            <div class="carousel-caption text-end" id="ltr">
+              <h1 id="ache">
+                One more for good measure.
+              </h1>
+              <p id="ache">
+                Some representative placeholder content for the third slide of this carousel.
+              </p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="#">
+                  Browse gallery
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" id="fch" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">
+          Previous
+        </span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" id="fch" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">
+          Next
+        </span>
+      </button>
+    </div>
+
+    <!-- RAZAS -->
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <a href="./Pastor.html">
+
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url('./imgp/pastor4.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" id="portfolio">
+                Pastor Aleman
+              </h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <!-- <li class="me-auto">
+                  <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                </li> -->
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#geo-fill"></use>
+                  </svg>
+                  <small>
+                    ALEMANIA
+                  </small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('./imgp/Husky4.webp');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+              Husky Siberiano
+            </h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#geo-fill"></use>
+                </svg>
+                <small>
+                  SIBERIA
+                </small>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('./imgp/golden1.jpeg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+              Another longer title belongs here
+            </h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#geo-fill"></use>
+                </svg>
+                <small>
+                  Reino unido
+                </small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- SimpleLightbox plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- JS DE BOOSTRAP -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+
+</body>
+
+</html>
